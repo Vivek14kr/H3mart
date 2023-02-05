@@ -1,0 +1,28 @@
+
+.ant_table {
+
+  width: "80%";
+  height: fit-content;
+  margin-left: 5%;
+  margin-right: 5%;
+  border:"5px solid blue";
+  margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+@media only screen and (max-width: 425px) {
+  .ant-table {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .ant-table {
+    display: block;
+  }
+}
+
